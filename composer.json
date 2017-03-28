@@ -1,0 +1,34 @@
+{
+  "name": "Simon/Simon-php",
+  "version": "1.0.4",
+  "description": "A PHP HTTP Client conforming to the HAL hypermedia type for the Simon processing API",
+  "license": "Apache2",
+  "authors": [
+    {
+      "name": "Simon",
+      "email": "support@simonpayments.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "finix/processing-php": "==1.0.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Simon\\": "./src"
+    },
+    "psr-4": {
+      "Simon\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Simon\\Tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable" : true
+}
