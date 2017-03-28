@@ -1,7 +1,7 @@
 {
-  "name": "Simon/Simon-php",
+  "name": "simon-payments/simon-php",
   "version": "1.0.4",
-  "description": "A PHP HTTP Client conforming to the HAL hypermedia type for the Simon processing API",
+  "description": "A PHP HTTP Client conforming to the HAL hypermedia type for the Simon Payments processing API",
   "license": "Apache2",
   "authors": [
     {
